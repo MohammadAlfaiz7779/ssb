@@ -63,7 +63,7 @@ const Home = () => {
 
       <div className='section'>
         <div className='product-section-heading'>
-          <p>Accessories</p>
+          <p>New Arrivals</p>
         </div>
         <Slider {...settings}>
         {
@@ -84,7 +84,7 @@ const Home = () => {
 
       <div className='section'>
         <div className='product-section-heading'>
-          <p>Tools & Home</p>
+          <p>Eatery</p>
         </div>
         <Slider {...settings}>
         {
@@ -101,7 +101,7 @@ const Home = () => {
 
       <div className='section'>
         <div className='product-section-heading'>
-          <p>Tools & Home</p>
+          <p>Apparel</p>
         </div>
         <Slider {...settings}>
         {
