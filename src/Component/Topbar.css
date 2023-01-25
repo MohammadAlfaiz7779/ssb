@@ -1,0 +1,41 @@
+.topbar{
+    background-color: #047BD5;
+}
+.topbar .top-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.topbar .top-bar ul{
+    margin: 0;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.topbar .top-bar ul li{
+    list-style: none;
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.topbar .top-bar ul li img{
+    width: 3.5vw;
+    height: 3.5vw;
+    object-fit: cover;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.topbar .top-bar ul li a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    width: 15vw;
+    word-wrap: wrap;
+}

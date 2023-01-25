@@ -1,0 +1,74 @@
+.footer{
+    background-color: #FF9900;
+    padding: 60px 50px;
+}
+.footer-logo img{
+    width: 12vw;
+    background-color: antiquewhite;
+}
+.footer .footer-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.footer .footer-section .footermenu:nth-child(4) .mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer .footer-section .footermenu:nth-child(4) .mail input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-bottom: 1px solid #047BD5;
+}
+
+.footer .footer-section .footermenu:nth-child(4) .mail p{
+    background-color: #047BD5;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid #047BD5;
+} 
+
+.footer .footer-section .footermenu:nth-child(4) .mail p:hover{
+    background-color: transparent;
+    color: #047BD5;
+}
+
+
+.footer .footer-section .footermenu span{
+    font-weight: bold;
+    color: #047BD5;
+}
+.footer .footer-section .footermenu ul{
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+}
+
+.footer .footer-section .footermenu ul li{
+    list-style: none;
+}
+
+.footer .footer-section .footermenu ul li a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 990px){
+    .footer .footer-section .footermenu:nth-child(4) .mail{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
