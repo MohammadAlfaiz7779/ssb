@@ -133,6 +133,40 @@ const Home = () => {
         </Slider>
       </div>
 
+      <div className='section'>
+        <div className='product-section-heading'>
+          <p>Accessories</p>
+        </div>
+        <Slider {...settings}>
+        {
+            apparelproduct.map((v, i) => {
+              return (
+                <div>
+                  <Productcard img={v.image} title={v.title} price={v.saleprice} issale={v.issale} />
+                </div>
+              )
+            })
+          }  
+        </Slider>
+      </div>
+
+      <div className='section'>
+        <div className='product-section-heading'>
+          <p>Kitchen</p>
+        </div>
+        <Slider {...settings}>
+        {
+            apparelproduct.map((v, i) => {
+              return (
+                <div>
+                  <Productcard img={v.image} title={v.title} price={v.saleprice} issale={v.issale} />
+                </div>
+              )
+            })
+          }  
+        </Slider>
+      </div>
+
 
       <div className="blog-box">
         <img src={b1} alt="" />

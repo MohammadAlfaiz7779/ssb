@@ -1,0 +1,85 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1px 0.1px;
+    padding: 50px 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.contact-page .contact-heading {
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.contact-page .contact-heading .heading {
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    font-weight: 700;
+}
+
+.contact-page .contact-heading .sub-heading {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    text-align: center;
+    padding: 0 120px ;
+}
+
+.contact-page .row{
+    padding: 0px 120px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.contact-page .row .col-6 .contact-form .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.contact-page .row .col-6 .contact-form .form input{
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.contact-page .row .col-6 .contact-form .form .error{
+    color: #ff0001;
+    font-size: 12px;
+}
+
+.contact-page .row .col-6 .contact-form .form textarea{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:750px) {
+    .contact-page .contact-heading .heading {
+        font-size: 20px;
+    }
+    .contact-page .contact-heading .sub-heading {
+        font-size: 15px;
+        padding: 0px 40px;
+    }
+    .contact-page .row{
+        flex-direction: column-reverse;
+        padding: 0px 10px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .contact-page .row .col-6{
+        width: 100%;
+    }
+
+    .contact-page .row .col-6 .map{
+        height: 300px;
+    }
+
+}
