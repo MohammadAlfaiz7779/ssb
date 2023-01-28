@@ -10,7 +10,7 @@ const Productcard = ({img,title,price,issale}) => {
         </div>
         <div className="product-title">
             <p className='product-name'>{title}</p>
-            <p className='product-price'>$500</p>
+            <p className='product-price'>${price}</p>
         </div>
     </div>
   )

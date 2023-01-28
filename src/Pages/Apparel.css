@@ -1,0 +1,124 @@
+.apparel {
+margin: 50px 0px;
+}
+.apparel .apparel-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.apparel .apparel-product-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.apparel .apparel-product-card .apparel-card {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.apparel .apparel-product-card .apparel-card .apparel-img {
+    width: 100%;
+    height: 300px;
+}
+
+.apparel .apparel-product-card .apparel-card .apparel-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.apparel .apparel-product-card .apparel-card .apparel-title {
+    width: 100%;
+    display: flex;
+    padding: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.apparel .apparel-product-card .apparel-card .apparel-title p {
+    margin: 0
+}
+
+.apparel .apparel-product-card .apparel-card .apparel-title .apparel-name {
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-align: start;
+}
+
+.apparel .apparel-product-card .apparel-card .apparel-title .title-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+    text-align: end;
+}
+
+.apparel .apparel-product-card .apparel-card .apparel-title .title-right img {
+    width: 25%;
+    cursor: pointer;
+}
+
+.apparel .apparel-product-card .apparel-card .apparel-title .title-right .apparel-price {
+    font-weight: bold;
+}
+
+@media screen and (max-width:990px) {
+    .apparel {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .apparel .apparel-heading {
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .apparel .apparel-product-card .apparel-card {
+        width: 185px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apparel .apparel-product-card .apparel-card .apparel-img {
+        height: 250px;
+    }
+
+    .apparel .apparel-product-card .apparel-card .apparel-title .apparel-name {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .apparel .apparel-product-card .apparel-card .apparel-title .title-right {
+        width: 40%;
+        font-size: 15px;
+    }
+
+    .apparel .apparel-product-card .apparel-card .apparel-title .title-right img {
+        width: 20px;
+    }
+
+}
+

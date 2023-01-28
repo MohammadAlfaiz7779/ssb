@@ -65,7 +65,7 @@ const Home = () => {
         <div className='product-section-heading'>
           <p>New Arrivals</p>
         </div>
-        <Slider {...settings}>
+        <Slider className='slider'{...settings}>
         {
             apparelproduct.map((v, i) => {
               return (

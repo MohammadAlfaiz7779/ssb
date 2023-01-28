@@ -10,6 +10,13 @@ import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Blog from "./Pages/Blog";
 import Sidebar from './Component/Sidebar';
+import Blogdetail from './Pages/Blogdetail';
+import Apparel from './Pages/Apparel';
+import Accessories from './Pages/Accessories';
+import Topbar from './Component/Topbar';
+import ToolsHome from './Pages/ToolsHome';
+import Kitchen from './Pages/Kitchen';
+import Productdetail from './Pages/Productdetail';
 
 
 function App() {
@@ -54,9 +61,39 @@ function App() {
             <Blog/>
           } />
           <Route
+          path='Blog-detail'
+          element={
+            <Blogdetail/>
+          } />
+          <Route
           path='*'
           element={
             <Error/>
+          } />
+          <Route
+          path='Apparel'
+          element={
+            <Apparel/>
+          } />
+          <Route
+          path='Accessories'
+          element={
+            <Accessories/>
+          } />
+          <Route
+          path='Tools&Home'
+          element={
+            <ToolsHome/>
+          } />
+          <Route
+          path='Kitchen'
+          element={
+            <Kitchen/>
+          } />
+          <Route
+          path='productdetail'
+          element={
+            <Productdetail/>
           } />
       </Routes>
       <Footer />

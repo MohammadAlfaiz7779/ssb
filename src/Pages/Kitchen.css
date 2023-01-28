@@ -1,0 +1,124 @@
+.kitchen {
+    margin: 50px 0px;
+}
+
+.kitchen .kitchen-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.kitchen .kitchen-product-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.kitchen .kitchen-product-card .kitchen-card {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.kitchen .kitchen-product-card .kitchen-card .kitchen-img {
+    width: 100%;
+    height: 300px;
+}
+
+.kitchen .kitchen-product-card .kitchen-card .kitchen-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.kitchen .kitchen-product-card .kitchen-card .kitchen-title {
+    width: 100%;
+    display: flex;
+    padding: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.kitchen .kitchen-product-card .kitchen-card .kitchen-title p {
+    margin: 0
+}
+
+.kitchen .kitchen-product-card .kitchen-card .kitchen-title .kitchen-name {
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-align: start;
+}
+
+.kitchen .kitchen-product-card .kitchen-card .kitchen-title .title-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+    text-align: end;
+}
+
+.kitchen .kitchen-product-card .kitchen-card .kitchen-title .title-right img {
+    width: 25%;
+    cursor: pointer;
+}
+
+.kitchen .kitchen-product-card .kitchen-card .kitchen-title .title-right .kitchen-price {
+    font-weight: bold;
+}
+
+@media screen and (max-width:990px) {
+    .kitchen {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .kitchen .kitchen-heading {
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .kitchen .kitchen-product-card .kitchen-card {
+        width: 185px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kitchen .kitchen-product-card .kitchen-card .kitchen-img {
+        height: 250px;
+    }
+
+    .kitchen .kitchen-product-card .kitchen-card .kitchen-title .kitchen-name {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .kitchen .kitchen-product-card .kitchen-card .kitchen-title .title-right {
+        width: 40%;
+        font-size: 15px;
+    }
+
+    .kitchen .kitchen-product-card .kitchen-card .kitchen-title .title-right img {
+        width: 20px;
+    }
+
+}

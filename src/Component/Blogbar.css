@@ -35,6 +35,6 @@
 }
 @media screen and (max-width:990px) {
     .Blogbar{
-        background-color: #047BD5;
+        display: none;
     }   
 }

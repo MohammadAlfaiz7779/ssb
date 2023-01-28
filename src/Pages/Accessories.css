@@ -1,0 +1,124 @@
+.accessories {
+    margin: 50px 0px;
+}
+
+.accessories .accessories-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.accessories .accessories-product-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.accessories .accessories-product-card .accessories-card {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.accessories .accessories-product-card .accessories-card .accessories-img {
+    width: 100%;
+    height: 300px;
+}
+
+.accessories .accessories-product-card .accessories-card .accessories-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.accessories .accessories-product-card .accessories-card .accessories-title {
+    width: 100%;
+    display: flex;
+    padding: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.accessories .accessories-product-card .accessories-card .accessories-title p {
+    margin: 0
+}
+
+.accessories .accessories-product-card .accessories-card .accessories-title .accessories-name {
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-align: start;
+}
+
+.accessories .accessories-product-card .accessories-card .accessories-title .title-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+    text-align: end;
+}
+
+.accessories .accessories-product-card .accessories-card .accessories-title .title-right img {
+    width: 25%;
+    cursor: pointer;
+}
+
+.accessories .accessories-product-card .accessories-card .accessories-title .title-right .accessories-price {
+    font-weight: bold;
+}
+
+@media screen and (max-width:990px) {
+    .accessories {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .accessories .accessories-heading {
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .accessories .accessories-product-card .accessories-card {
+        width: 185px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accessories .accessories-product-card .accessories-card .accessories-img {
+        height: 250px;
+    }
+
+    .accessories .accessories-product-card .accessories-card .accessories-title .accessories-name {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .accessories .accessories-product-card .accessories-card .accessories-title .title-right {
+        width: 40%;
+        font-size: 15px;
+    }
+
+    .accessories .accessories-product-card .accessories-card .accessories-title .title-right img {
+        width: 20px;
+    }
+
+}

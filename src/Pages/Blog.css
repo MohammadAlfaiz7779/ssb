@@ -106,24 +106,12 @@
 }
 
 @media screen and (max-width:990px) {
-    .main-blog .blog-section .blogcard .blogdesc p{
-        font-size: 25px;
-    }
-
-    .main-blog .blog-section .blogcard .blogdesc a{
-        font-size: 30px;
-    }
-    .main-blog .blog-section .blogcard{
-        width: 100%;
+    .main-blog{
+        margin: 50px 0 ;
+        padding: 5px;
     }
     .main-blog .blog-section .blogcard-landscape{
         width: 100%;
-        height: 20vh;
-    }
-    .main-blog .blog-section .blogcard-landscape .blogdesc p{
-        font-size: 25px;
-    }
-    .main-blog .blog-section .blogcard-landscape .blogdesc a{
-        font-size: 30px;
+        height: 30vh;
     }
 }

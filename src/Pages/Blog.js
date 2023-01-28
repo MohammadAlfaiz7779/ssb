@@ -25,7 +25,7 @@ const Blog = () => {
               <a className='btn'>Read More</a>
             </div>
           </div>
-          <div className='blogcard landscape'>
+          <div className='blogcard-landscape'>
             <img src={b3} />
             <div className='blogdesc'>
               <p>Namkeen</p>

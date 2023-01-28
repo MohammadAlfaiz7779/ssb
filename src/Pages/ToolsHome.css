@@ -1,0 +1,124 @@
+.toolhome {
+    margin: 50px 0px;
+}
+
+.toolhome .toolhome-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.toolhome .toolhome-product-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.toolhome .toolhome-product-card .toolhome-card {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.toolhome .toolhome-product-card .toolhome-card .toolhome-img {
+    width: 100%;
+    height: 300px;
+}
+
+.toolhome .toolhome-product-card .toolhome-card .toolhome-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.toolhome .toolhome-product-card .toolhome-card .toolhome-title {
+    width: 100%;
+    display: flex;
+    padding: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.toolhome .toolhome-product-card .toolhome-card .toolhome-title p {
+    margin: 0
+}
+
+.toolhome .toolhome-product-card .toolhome-card .toolhome-title .toolhome-name {
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-align: start;
+}
+
+.toolhome .toolhome-product-card .toolhome-card .toolhome-title .title-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 30%;
+    text-align: end;
+}
+
+.toolhome .toolhome-product-card .toolhome-card .toolhome-title .title-right img {
+    width: 25%;
+    cursor: pointer;
+}
+
+.toolhome .toolhome-product-card .toolhome-card .toolhome-title .title-right .toolhome-price {
+    font-weight: bold;
+}
+
+@media screen and (max-width:990px) {
+    .toolhome {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .toolhome .toolhome-heading {
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .toolhome .toolhome-product-card .toolhome-card {
+        width: 185px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .toolhome .toolhome-product-card .toolhome-card .toolhome-img {
+        height: 250px;
+    }
+
+    .toolhome .toolhome-product-card .toolhome-card .toolhome-title .toolhome-name {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .toolhome .toolhome-product-card .toolhome-card .toolhome-title .title-right {
+        width: 40%;
+        font-size: 15px;
+    }
+
+    .toolhome .toolhome-product-card .toolhome-card .toolhome-title .title-right img {
+        width: 20px;
+    }
+
+}
